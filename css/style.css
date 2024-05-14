@@ -1,0 +1,1178 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto:wght@700&display=swap');
+p,a,h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body{
+
+    overflow-x: hidden;
+    max-width: 100%;
+    background-color: rgba(253, 255, 238, 1);
+    display: flex;
+    flex-direction: column;
+  
+}
+
+/* Стили меню навигации */
+
+#logs{
+height: 5%; 
+width: 16%; 
+margin-left: 2% ; 
+margin-top: 0.05%;
+
+}
+
+
+
+#menuxa{
+    background-color: rgba(203, 232, 192, 1);
+    height: 10%;
+    width: 100%;
+  border-bottom: 1.7px solid rgb(140, 162, 132);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.slide-down {
+  top: 100%;
+}
+
+#men-main{
+
+ display: flex;
+ flex-direction: row;
+ 
+
+}
+
+#ico{
+    margin-left: 13% ;
+}
+ul{
+margin-left: -3%;
+font-size: 1.1em;
+
+}
+
+li{
+    list-style-type: none;
+    padding: 1%;
+    margin-left: 16%;
+    border-color: solid white;
+ 
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#contex{
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+   color: rgba(40, 74, 13, 1)
+}
+
+
+#contex:hover{
+
+    color: rgb(31, 131, 88);
+}
+
+#mob{
+    color: rgba(40, 74, 13, 1);
+    transition: color 0.3s ease;
+}
+#mob:hover{
+    color: rgb(31, 131, 88);
+}
+
+
+
+/*Приветствие*/
+
+#greetings{
+
+    height: 70%;
+    width: 100%;
+    background-color: rgb(239, 242, 223);
+    border-bottom: 1px solid rgb(197, 200, 184);
+    background-image: url('../images/1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1.1px solid rgb(67, 67, 67);
+
+}
+
+#piter{
+   padding-left: 20%;
+   padding-top: 2%;
+   color: white;
+   font-size: 3.2em;
+   font-family:  'Gabriela', sans-serif;
+
+
+}
+#piter2{
+    padding-left: 35%;
+    padding-top: 2%;
+    color: white;
+    font-size: 1.6em;
+    font-family:  'Gabriela', sans-serif;
+ 
+ 
+ }
+
+ #piter3{
+    padding-left: 2%;
+    color: white;
+    font-size: 1.3em;
+    font-family:  'Gabriela', sans-serif;
+ 
+ 
+ }
+
+
+
+
+ /* Рынок */
+
+ #chimata{
+
+    background-color:  rgba(253, 255, 238, 1) ;
+    width: 100%;
+ }
+
+
+ /* Рекламные баннеры */
+
+ #advers{
+
+    display: flex;
+   flex-direction: row;
+
+ }
+
+ #ads1{
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 17%;
+    background-image:  url('../images/11.png');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    width: 500px;
+    height: 160px;
+    margin-left: 10%;
+    transition: color 0.3s ease;
+ }
+
+ #ads2{
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 17%;
+    background-image:  url('../images/13.png');
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    width: 500px;
+    height: 160px;
+    margin-left: 20%;
+    transition: color 1s ease;
+ }
+
+
+ #ads1:hover{
+
+    background-image:  url('../images/12.png');
+
+ }
+ #ads2:hover{
+
+    background-image:  url('../images/14.png');
+
+ }
+ 
+
+
+
+ /* Показ продуктов */
+#market{
+
+    border-top: 1px solid rgba(165, 192, 155, 1);
+   background-color: rgb(207, 227, 198);
+   border-bottom: 1px solid rgba(165, 192, 155, 1);
+}
+
+#product{
+
+    color: rgba(40, 74, 13, 1);
+    font-size: 3.6em;
+    margin-left: 34%;
+}
+
+#column1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+#pics1{
+    height: 80%;
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+#the{
+    border: 0.3px solid rgb(187, 187, 187);
+    background-color: white;
+    width: 24%;
+    height: 60%;
+    border-radius: 2%;
+    
+}
+
+#prod_name{
+
+    margin-left: 6.2%;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family:  'Gabriela', sans-serif;
+}
+
+
+
+#prod_ves{
+
+margin-left: 6.2%;
+   margin-top: -3%;
+}
+
+#prod_price{
+
+    margin-left: 6.2%;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+#korzina{
+
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(85, 163, 86);
+    border-radius: 4%;
+    width: 30%;
+    height: 60%;
+    margin-top: 4%;
+    margin-left: 50%;
+    font-size: 1.1em;
+    text-align: center;
+    transition: color 0.3s ease;
+
+}
+
+#korz{
+    color: white;
+    font-family:  'Gabriela', sans-serif;
+    font-size: 0.8em;
+}
+
+#prod_price2{
+
+    margin-left: 6.2%;
+       margin-top: -3%;
+    }
+
+
+    #the2{
+        border: 0.3px solid rgb(187, 187, 187);
+        background-color: white;
+        width: 24%;
+        height: 60%;
+        border-radius: 2%;
+        margin-left: 10%;
+    }
+
+    
+#prod_name1{
+
+    margin-left: 6.2%;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family:  'Gabriela', sans-serif;
+}
+
+
+
+#prod_ves1{
+
+margin-left: 6.2%;
+   margin-top: -3%;
+}
+
+#prod_price1{
+
+    margin-left: 6.2%;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+
+#korzina1{
+
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(85, 163, 86);
+    border-radius: 4%;
+    width: 30%;
+    height: 60%;
+    margin-top: 4%;
+    margin-left: 50%;
+    font-size: 1.1em;
+    text-align: center;
+    transition: color 0.3s ease;
+    
+}
+
+#korz1{
+    color: white;
+    font-family:  'Gabriela', sans-serif;
+    font-size: 0.8em;
+}
+
+#prod_price3{
+
+    margin-left: 6.2%;
+       margin-top: -3%;
+    }
+
+    #the3{
+        border: 0.3px solid rgb(187, 187, 187);
+        background-color: white;
+        width: 24%;
+        height: 60%;
+        border-radius: 2%;
+        margin-left: 10%;
+    }
+
+
+    #column2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+
+    
+    #column3{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+
+    #korzina3{
+
+        border: 2px solid rgba(115, 189, 136, 1);
+        background-color: rgba(128, 213, 136, 1);
+        border-radius: 4%;
+        width: 26%;
+        height: 100%;
+        margin-top: 5%;
+        margin-left: 35%;
+        font-size: 2.6em;
+        text-align: center;
+        transition: color 0.3s ease;
+    }
+
+    #korzina3:hover{
+        background-color: rgb(99, 231, 113);
+
+    }
+    #korzina1:hover{
+        background-color: rgb(99, 231, 113);
+
+    }
+    #korzina:hover{
+        background-color: rgb(99, 231, 113);
+
+    }
+
+    /* Оформление отзывов */
+
+    #primeri{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #pics2{
+
+        width: 20%;
+        height: 20%;
+        margin-left: 9%;
+        border: 0.6px solid rgb(194, 194, 194);
+        border-radius: 4%;
+    }
+
+
+    #thanks{
+
+        margin-left: 13%;
+        margin-top: 3%;
+    }
+
+
+
+    /* Подвал сайта */
+
+
+    #podval{
+
+
+        background-color: rgba(72, 85, 68, 1);
+    }
+
+    #credits{
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        margin-top: 3%;
+        font-size: 1.2em;
+    }
+
+
+#menushik{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 1%;
+
+
+}
+
+#menushik2{
+
+ color: white;
+ transition: color 0.3s ease;
+
+}
+
+#tekst{
+
+    margin-left: 20%;
+    color: white;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+#well{
+    font-size: 1.2em;
+    color: white;
+}
+
+#menushik2:hover{
+
+    color: rgb(28, 120, 89);
+}
+
+#tekst:hover{
+
+    color: rgb(28, 120, 89);
+}
+#naviga{
+    display: none;
+}
+
+
+
+
+
+/* АДАПТИВА */
+
+
+
+
+@media (max-width: 899.999px){
+
+
+    #piter2{
+        padding-left: 15%;
+
+    }
+
+    #advers{
+
+        display: flex;
+        flex-direction: column;
+
+    }
+    #ads1{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/11.png');
+        width: 500px;
+        height: 160px;
+        margin-left: 7%;
+
+     }
+    
+     #ads2{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/13.png');
+        width: 500px;
+        height: 150px;
+        margin-left: 7%;
+        margin-top: 3%;
+     }
+     #piter2{
+        padding-left: 10%;
+     }
+     #piter{
+        padding-left: 5%;
+        font-size: 2.4em;
+
+     }
+     #piter3{
+        font-size: 1.3em;
+
+     }
+     #product{
+
+        color: rgba(40, 74, 13, 1);
+        font-size: 3.2em;
+        margin-left: 26%;
+    }
+    #the{
+    border: 0.3px solid rgb(187, 187, 187);
+    background-color: white;
+    width: 30%;
+    height: 66%;
+    border-radius: 2%;
+    margin-left: 2%;
+    }
+    #the2{
+        border: 0.3px solid rgb(187, 187, 187);
+        background-color: white;
+        width: 30%;
+        height: 66%;
+        border-radius: 2%;
+        margin-left: 2%;
+        }
+        #the{
+            border: 0.3px solid rgb(187, 187, 187);
+            background-color: white;
+            width: 30%;
+            height: 66%;
+            border-radius: 2%;
+            margin-left: 2%;
+            }
+            #the3{
+                border: 0.3px solid rgb(187, 187, 187);
+                background-color: white;
+                width: 30%;
+                height: 66%;
+                border-radius: 2%;
+                margin-left: 2%;
+                }
+  #column1, #column2, #column3{
+    margin-left: 2%;
+  }
+  #korzina3{
+
+    border: 2px solid rgba(115, 189, 136, 1);
+    background-color: rgba(128, 213, 136, 1);
+    border-radius: 4%;
+    width: 50%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 22%;
+    font-size: 2.6em;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+#pics2{
+   
+    width: 26%;
+    height: 26%;
+    margin-left: 5%;
+    border: 0.6px solid rgb(194, 194, 194);
+    border-radius: 4%;
+}
+
+ul{
+    margin-left: 9%;
+    font-size: 0.92em;
+    
+    }
+    
+    li{
+        list-style-type: none;
+        padding: 1%;
+        margin-left: 11%;
+        border-color: solid white;
+     
+        
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    #credits{
+        display: flex;
+        flex-direction: row;
+        margin-left: 2%;
+        margin-top: 3%;
+        font-size: 0.95em;
+    }
+    #ico{
+        margin-left: -7% ;
+    }
+
+    #logs{
+
+    
+        height: 60px; width: 180px; margin-left: 2% ;
+        }
+}
+
+
+
+    
+
+@media(min-width: 900px) and (max-width: 1180px){
+
+    #product{
+
+        color: rgba(40, 74, 13, 1);
+        font-size: 3.2em;
+        margin-left: 33%;
+    }
+     #piter2{
+        padding-left: 25%;
+     }
+     #piter{
+        padding-left: 8%;
+        font-size: 2.4em;
+
+     }
+     #piter3{
+        font-size: 1.3em;
+
+     }
+
+     #ads1{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/11.png');
+        width: 500px;
+        height: 120px;
+        margin-left: 1%;
+     }
+    
+     #ads2{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/13.png');
+        width: 500px;
+        height: 120px;
+        margin-left: 8%;
+     }
+
+
+     #pics2{
+   
+        width: 26%;
+        height: 26%;
+        margin-left: 5%;
+        border: 0.6px solid rgb(194, 194, 194);
+        border-radius: 4%;
+    }
+
+     ul{
+        margin-left: 35%;
+    font-size: 0.92em;
+        
+        }
+        
+        li{
+            list-style-type: none;
+            padding: 1%;
+            margin-left: 11%;
+            border-color: solid white;
+         
+            
+        }
+        
+        ul{
+            display: flex;
+            flex-direction: row;
+        
+        }
+
+        #credits{
+            display: flex;
+            flex-direction: row;
+            margin-left: 2%;
+            margin-top: 3%;
+            font-size: 1em;
+        }
+
+        #ico{
+            margin-left: 0% ;
+        }
+
+        
+        #logs{
+
+    
+            height: 60px; width: 180px; margin-left: 2% ;
+            }
+    
+
+}
+
+
+
+@media(min-width: 300px) and (max-width: 600px){
+
+    #product{
+
+        color: rgba(40, 74, 13, 1);
+        font-size: 2.3em;
+        margin-left: 15%;
+    }
+     #piter2{
+        padding-left: 3%;
+     }
+     #piter{
+        padding-left: 9%;
+        font-size: 2.1em;
+
+     }
+     #piter3{
+        font-size: 1em;
+
+     }
+
+     #ads1{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/11.png');
+        width: 350px;
+        height: 120px;
+        margin-left: 7%;
+     }
+    
+     #ads2{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/13.png');
+        width: 350px;
+        height: 120px;
+        margin-left: 7%;
+     }
+
+     #the{
+        border: 0.3px solid rgb(187, 187, 187);
+        background-color: white;
+        width: 60%;
+        height: 66%;
+        border-radius: 2%;
+        margin-left: 15%;
+        }
+        #the2{
+            border: 0.3px solid rgb(187, 187, 187);
+            background-color: white;
+            width: 60%;
+            height: 66%;
+            border-radius: 2%;
+            margin-left: 15%;
+            margin-top: 3%;
+            }
+                #the3{
+                    border: 0.3px solid rgb(187, 187, 187);
+                    background-color: white;
+                    width: 60%;
+                    height: 66%;
+                    border-radius: 2%;
+                    margin-left: 15%;
+                    margin-top: 3%;
+                    }
+      #column1{
+        margin-left: 2%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #column2{
+        margin-left: 2%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+      }
+      #column3{
+        margin-left: 2%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+      }
+
+         #primeri{
+
+            display: flex;
+            flex-direction: column;
+         }
+     #pics2{
+   
+        width: 70%;
+        height: 36%;
+        margin-left: 15%;
+        border: 0.6px solid rgb(194, 194, 194);
+        border-radius: 4%;
+        margin-top: 5%;
+    }
+
+
+    #logs{
+
+        height: 60px; 
+        width: 170px;
+         margin-left: 3% ;
+         margin-top: 0.22%;
+
+    }
+    #ico{
+        display: none;
+    }
+    .hidden {
+        display: none;
+    }
+    
+    .show{
+        
+        display: flex;
+        flex-direction: column;
+        border: 1.7px solid rgb(140, 162, 132);
+        background-color: rgba(203, 232, 192, 1) ;
+        font-size: 2.8em;
+    }
+    
+    #naviga{
+        display: flex;
+        flex-direction: column ;
+    }
+    
+    #myObject{
+    
+       display: show;
+       margin-top: 3%;
+       margin-left: 30%;
+       background-color: rgba(0, 0, 128, 0);
+       border: 0.3px solid rgba(0, 0, 128, 0);
+       font-size: 4.2em;
+    }
+    
+    
+
+    #credits{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-top: 6%;
+        font-size: 1em;
+    }
+
+    #menushik2{
+        font-size: 1.5em;
+    }
+    #tekst{
+
+        margin-left: 2%;
+        margin-top: 8%;
+        color: white;
+        font-size: 1.5em;
+        transition: color 0.3s ease;
+    }
+    
+
+    
+
+}
+
+@media (min-width: 100px) and (max-width: 399.999px){
+
+    #ads1{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/11.png');
+        width: 280px;
+        height: 120px;
+        margin-left: 5%;
+     }
+    
+     #ads2{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/13.png');
+        width: 280px;
+        height: 120px;
+        margin-left: 5%;
+     }
+     #product{
+
+        color: rgba(40, 74, 13, 1);
+        font-size: 2.2em;
+        margin-left: 14%;
+    }
+    #logs{
+
+        height: 60px; 
+        width: 170px;
+         margin-left: 40% ;
+         margin-top: 2%;
+         position: absolute;
+
+    }
+#ico{
+    display: none;
+}
+
+
+        #credits{
+            display: flex;
+            flex-direction: column;
+            margin-left: 2%;
+            margin-top: 6%;
+            font-size: 1em;
+        }
+
+        #menushik2{
+            font-size: 1.5em;
+        }
+        #tekst{
+
+            margin-left: 2%;
+            margin-top: 8%;
+            color: white;
+            font-size: 1.5em;
+            transition: color 0.3s ease;
+        }
+        
+
+        .hidden {
+            display: none;
+        }
+        
+        .show{
+            
+            display: flex;
+            flex-direction: column;
+            border: 1.7px solid rgb(140, 162, 132);
+            background-color: rgba(203, 232, 192, 1) ;
+            font-size: 2.8em;
+        }
+        
+        #naviga{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #myObject{
+        
+           display: show;
+           margin-top: 3%;
+           margin-left: 0%;
+           background-color: rgba(0, 0, 128, 0);
+           border: 0.3px solid rgba(0, 0, 128, 0);
+           font-size: 3.7em;
+        }
+        
+        #piter2{
+            margin-left: 5%;
+        }
+        
+    
+}
+
+@media (min-width: 600px) and (max-width: 799.999px){
+
+    #logs{
+
+        height: 60px; 
+        width: 170px;
+         margin-left: 25% ;
+         margin-top: 0.22%;
+
+    }
+    #product{
+
+        color: rgba(40, 74, 13, 1);
+        font-size: 2.3em;
+        margin-left: 20%;
+    }
+     #piter2{
+        padding-left: 3%;
+     }
+     #piter{
+        padding-left: 12%;
+        font-size: 2.1em;
+
+     }
+     #piter3{
+        font-size: 1em;
+
+     }
+
+     #ads1{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/11.png');
+        width: 350px;
+        height: 120px;
+        margin-left: 17%;
+     }
+    
+     #ads2{
+        border: 1px solid rgba(0, 0, 0, 0);
+        border-radius: 17%;
+        background-image:  url('../images/13.png');
+        width: 350px;
+        height: 120px;
+        margin-left: 17%;
+     }
+
+     #the{
+        border: 0.3px solid rgb(187, 187, 187);
+        background-color: white;
+        width: 60%;
+        height: 66%;
+        border-radius: 2%;
+        margin-left: 15%;
+        }
+        #the2{
+            border: 0.3px solid rgb(187, 187, 187);
+            background-color: white;
+            width: 60%;
+            height: 66%;
+            border-radius: 2%;
+            margin-left: 15%;
+            margin-top: 3%;
+            }
+                #the3{
+                    border: 0.3px solid rgb(187, 187, 187);
+                    background-color: white;
+                    width: 60%;
+                    height: 66%;
+                    border-radius: 2%;
+                    margin-left: 15%;
+                    margin-top: 3%;
+                    }
+      #column1{
+        margin-left: 2%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #column2{
+        margin-left: 2%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+      }
+      #column3{
+        margin-left: 2%;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+      }
+
+         #primeri{
+
+            display: flex;
+            flex-direction: column;
+         }
+     #pics2{
+   
+        width: 70%;
+        height: 36%;
+        margin-left: 15%;
+        border: 0.6px solid rgb(194, 194, 194);
+        border-radius: 4%;
+        margin-top: 5%;
+    }
+
+
+    #ico{
+        display: none;
+    }
+    .hidden {
+        display: none;
+    }
+    
+    .show{
+        
+        display: flex;
+        flex-direction: column;
+        border: 1.7px solid rgb(140, 162, 132);
+        background-color: rgba(203, 232, 192, 1) ;
+        font-size: 2.8em;
+    }
+    
+    #naviga{
+        display: flex;
+        flex-direction: column ;
+    }
+    
+    #myObject{
+    
+       display: show;
+       margin-top: 3%;
+       margin-left: 30%;
+       background-color: rgba(0, 0, 128, 0);
+       border: 0.3px solid rgba(0, 0, 128, 0);
+       font-size: 4.2em;
+    }
+    
+    
+
+    #credits{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-top: 6%;
+        font-size: 1em;
+    }
+
+    #menushik2{
+        font-size: 1.5em;
+    }
+    #tekst{
+
+        margin-left: 2%;
+        margin-top: 8%;
+        color: white;
+        font-size: 1.5em;
+        transition: color 0.3s ease;
+    }
+
+}
+
+
+
+
+
+
+
